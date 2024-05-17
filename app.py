@@ -10,7 +10,7 @@ import sys
 
 logging.basicConfig(level=logging.DEBUG)
 app = Flask(__name__)
-CORS(app)
+CORS(app,resources={r"/*": {"origins": "https://skyguard-mocha.vercel.app"}})
 
 Model_arch = 'yolo_nas_m'
 best_model = models.get(
@@ -43,6 +43,8 @@ def detect_objects(frame):
 
 @app.route('/process_frame', methods=['POST'])
 def process_frame():
+    print("Skyguard Backend", file=sys.stdout)
+   
     try:
         # Receive frame data from frontend
         payload = request.get_json()
@@ -66,3 +68,6 @@ def process_frame():
         return jsonify({'error': str(e)}), 400
 
 
+
+if __name__ == '__main__':
+    app.run(debug=True)
