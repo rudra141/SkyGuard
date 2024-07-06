@@ -4,7 +4,7 @@
 SKYGUARD is a high-precision real-time drone detection system engineered to enhance surveillance capabilities using YOLO NAS. The system includes a dynamic web application for live webcam streaming and chat, integrating live alerts for drone detections.
 
 ## Project Video
-[Project Video]()
+[Project Video](https://github.com/AvikshitChanda/SkyGuardBackend/issues/2#issue-2393624319)
 
 ## Table of Contents
 1. [Overview](#overview)
