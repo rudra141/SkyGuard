@@ -11,7 +11,7 @@ Frontend Code:- [Frontend Code](https://github.com/AvikshitChanda/SkyGuard)
 8. [License](#license)
    
 ## Overview
-SKYGUARD is a high-precision real-time drone detection system engineered to enhance surveillance capabilities using YOLO NAS. The system includes a dynamic web application for live webcam streaming and chat, integrating live alerts for drone detections.
+SKYGUARD is a high-precision real-time drone detection system engineered to enhance surveillance capabilities using YOLO NAS.It can detect drones which are away from the camera. The system includes a dynamic web application for live webcam streaming and chat, integrating live alerts for drone detections.
 
 ## Project Video
 
