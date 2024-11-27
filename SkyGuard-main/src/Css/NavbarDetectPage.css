@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 170px;
+    padding: 0 15px;
+    color: white;
+}
+
+.navbarlogo img {
+    width: 220px;
+    height: 125px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.navbarbuttons {
+    display: flex;
+    align-items: center;
+}
+
+.homeButton1 {
+    margin-left: 1050px;
+    padding: 8px 16px;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 25px;
+}
+
+.homeButton1:hover {
+    background-color: #fff; 
+    color: #FFC700; 
+}
